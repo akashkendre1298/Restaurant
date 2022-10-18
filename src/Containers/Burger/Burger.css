@@ -1,0 +1,149 @@
+.flex-burger {
+  display: flex;
+  justify-content: center;
+}
+.wid-burger {
+  width: 80em;
+}
+.content-burger-page {
+  display: flex;
+  gap: 30px;
+}
+.burger-nav-header {
+  height: 150px;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.burger-heading p {
+  font-size: 24px;
+  padding: 0 0 8px 0;
+}
+.head-burger {
+  font-size: 18px;
+  border-bottom: 1px dashed lightgray;
+  padding: 10px;
+}
+.burger-types {
+  border: 1px dashed lightgray;
+  /* padding: 10px; */
+}
+.side-content {
+  width: 16em;
+}
+.filterb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.filterb p {
+  cursor: pointer;
+}
+.filterb:hover p {
+  color: #dd3333;
+}
+.categories {
+  padding: 10px;
+  font-size: 18px;
+}
+.filterb-check input[type='checkbox'] {
+  display: inline-block;
+  cursor: pointer;
+}
+.filterb-check {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.filter-section {
+  margin-top: 20px;
+}
+.right-content-img {
+  margin-bottom: 10px;
+  width: 64em;
+}
+.right-content {
+  width: 64em;
+}
+.refine-search p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.btn-search {
+  width: 140px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+}
+.btn-div-refine-search {
+  gap: 20px;
+  display: flex;
+}
+.btn-search:hover {
+  background-color: #dd3333;
+}
+.sort-section {
+  display: flex;
+  border: 1px dashed lightgray;
+  padding: 10px;
+  margin: 30px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort-left-side {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.sort-left-side img {
+  cursor: pointer;
+}
+.select-option {
+  width: 225px;
+  height: 35px;
+  border: 1px dashed lightgray;
+}
+.round::label {
+  border-radius: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .right-content-img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .wid-burger {
+    width: 100%;
+  }
+  .side-content {
+    display: none;
+  }
+  .right-content {
+    width: 100%;
+  }
+  .btn-div-refine-search {
+    grid-gap: 20px;
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sort-section {
+    display: block;
+    border: 1px dashed lightgray;
+    padding: 10px;
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-burger {
+    padding: 1em;
+  }
+}

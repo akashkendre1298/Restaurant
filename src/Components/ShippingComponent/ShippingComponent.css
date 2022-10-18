@@ -1,0 +1,45 @@
+.div-for-shipping-compo {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed white;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.main-div-fr-component:hover {
+  color: red;
+}
+.main-div-fr-component:hover .div-for-shipping-compo {
+  border-color: red;
+  color: red;
+}
+.main-div-fr-component:hover .heading-for-shipping {
+  color: red;
+}
+.img-style {
+  width: 60px;
+  margin: auto;
+}
+.main-div-fr-component {
+  width: 250px;
+  text-align: center;
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+}
+.wid-fr-shipp {
+  width: 75em;
+}
+.text-div-for-shipping-compo {
+  width: 250px;
+  text-align: center;
+  color: white;
+}
+.heading-for-shipping {
+  padding: 1em 0;
+  color: white;
+}

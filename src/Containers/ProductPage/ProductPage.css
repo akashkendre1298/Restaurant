@@ -1,0 +1,52 @@
+.flex-productpage {
+  display: flex;
+  justify-content: center;
+}
+.wid-productpage {
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+.productpage-nav-heading {
+  font-size: 1.5em;
+}
+.productpage-nav-content {
+  display: flex;
+  gap: 20px;
+}
+.arrow {
+  width: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.arrow-div {
+  display: flex;
+  gap: 10px;
+}
+.all-products-for-resto {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.wid-fr-all-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 80em;
+  gap: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .wid-productpage {
+    width: 100%;
+    padding: 1em;
+  }
+  .productpage-nav-content p {
+    cursor: pointer;
+    display: none;
+  }
+}

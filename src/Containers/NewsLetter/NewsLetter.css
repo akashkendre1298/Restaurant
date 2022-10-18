@@ -1,0 +1,46 @@
+.flex-newsletter {
+  display: flex;
+  justify-content: center;
+}
+.wid-news {
+  width: 80em;
+  text-align: center;
+  background-image: url('https://www.mahardhi.com/prestashop/MT03/restora/themes/restora/assets/img/ade3ceaa0500055b94fb47e2422315a4.jpg');
+  /* height: 230px;  */
+}
+.headar-subscribe {
+  font-size: 30px;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 10px;
+}
+.content-news-letter {
+  padding: 45px 10px;
+}
+.news-desc {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0;
+}
+.input-newz {
+  width: 70%;
+  min-height: 50px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 25px;
+  background: #151515;
+  opacity: 0.7;
+  color: #fff;
+  margin: 29px auto 30px auto;
+}
+.sub-btn {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background: red;
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  cursor: pointer;
+}

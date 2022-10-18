@@ -1,0 +1,55 @@
+.flex-blogpage {
+  display: flex;
+  justify-content: center;
+}
+.wid-fr-blogpage {
+  width: 80em;
+}
+
+/* search bar  */
+
+.search-bar-restoblog {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+}
+.input-for-search {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+}
+
+.section-of-oinaidlnkwovio {
+  padding: 10px;
+  border-radius: 5px;
+  width: 14em;
+  display: flex;
+  border: none;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.search-icon-style {
+  height: 1.4em;
+  width: 1.4em;
+}
+.flex-fr-side-blog-mini {
+  display: flex;
+  gap: 10px;
+  padding: 1em;
+  border-bottom: 1px solid;
+  /* margin-bottom: 20px; */
+}
+.all-content-bg-page {
+  display: flex;
+  gap: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+}

@@ -1,0 +1,96 @@
+.main-div-product {
+  margin-left: auto;
+  width: 300px;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15px;
+}
+.prdouct-div {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  /* margin-left: auto; */
+  text-align: center;
+}
+.img-size {
+  width: 100%;
+}
+.prdouct-div:hover .img1-fr-prod {
+  opacity: 0;
+}
+
+.prdouct-div:hover .img2-fr-prod {
+  opacity: 1;
+  filter: blur(1.8px);
+  /* background-color: rgb(110, 106, 106); */
+}
+
+.img2-fr-prod {
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0, 0, 0.44, 1.18);
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  bottom: 30px;
+  left: 0;
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  gap: 20px;
+  /* transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0, 0, 0.44, 1.18); */
+  /* transform: scaleY(0); */
+  /* transform-origin: bottom center; */
+}
+.productpage-nav-content p {
+  cursor: pointer;
+}
+
+.eye {
+  bottom: 0;
+  /* left: 0; */
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  grid-gap: 20px;
+  gap: 20px;
+}
+.prdouct-div:hover .eye {
+  opacity: 1;
+}
+.prdouct-div:hover .btn-div {
+  opacity: 1;
+  top: 80%;
+}
+.hover-icons {
+  width: 30px;
+  cursor: pointer;
+}
+.title-product {
+  font-size: 20px;
+  color: rgb(57, 57, 57);
+}
+.price-product {
+  font-size: 20px;
+  color: red;
+}
+
+.clrhover {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  /* margin-left: auto; */
+  text-align: center;
+  background-color: #000;
+}

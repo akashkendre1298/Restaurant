@@ -1,0 +1,27 @@
+.all-partners {
+  display: flex;
+  justify-content: center;
+}
+.wid-fr-partners {
+  width: 80em;
+}
+.logo-for-partners {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  overflow-x: scroll;
+  height: 250px;
+}
+.logo-for-partners::-webkit-scrollbar {
+  display: none;
+}
+.logo-for-partners img {
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .wid-fr-partners {
+    width: 100%;
+    padding: 1em;
+  }
+}
